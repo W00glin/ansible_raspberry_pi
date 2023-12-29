@@ -1,5 +1,12 @@
 # ansible_raspberry_pi
-Ansible playbook for setting up a new raspberry pi. I use this for when I want to deploy a new raspberry pi, or replace one after it has been re-imaged. This is heavily inspired/taken directly from
+Ansible playbook for setting up a new raspberry pi. I use this for when I want to deploy a new raspberry pi, or replace one after it has been re-imaged. This is heavily inspired/taken directly from my other ansible playbooks. You can view them here:
+
+ - [Pop!_OS playbook](https://github.com/W00glin/ansible_pop_os-desktop-)
+ - [Mac OS playbook](https://github.com/W00glin/ansible_macos_playbook)
+
+I wrote/re-wrote this since my pi's microSD card died and I did not have any kind of backup. (Shame on me, I know), but I figured this would be a good option for me to run with it and see if I could develope a playbook to get me mostly up and running.
+
+This playbook does make a couple of assumptions. First being you already have a raspberry pi and have used some process to install the Raspberry Pi OS on it. I use it simply because its just like Debian. This also assumes you have either physical or logical access to the pi itself for running this playbook.
 
 ## Requirements
 - Git
