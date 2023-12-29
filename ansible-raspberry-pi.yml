@@ -42,3 +42,9 @@
         - cf-ddns-updater
         - network
       when: cf-ddns-updater_enabled | bool
+    - role: certbot
+      become: true
+      tags:
+        - certbot
+        - system
+      when: certbot_enabled | bool
