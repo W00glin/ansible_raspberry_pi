@@ -8,6 +8,7 @@ developement_enabled : true
 
 docker_enabled:               false
 ufw_enabled:                  false
+cf-ddns-updater:              false
 
 
 # http://docs.ansible.com/ansible/playbooks_variables.html#variable-precedence-where-should-i-put-a-variable
