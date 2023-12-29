@@ -1,0 +1,38 @@
+---
+
+- name: Raspberry Pi environment playbook
+  hosts: localhost
+#  pre_tasks:
+#    - name: NAME_OF_TASK
+#      package_facts:
+#        manager: NAME_OF_PACKAGE
+#      tags:
+#        - UFW
+  roles:
+    ## Common roles
+    - role: common
+      become: true
+      tags:
+        - common
+      when: common_enabled | bool
+    ## UFW role
+    - role: ufw
+      become: true
+      tags:
+        - ufw
+        - system
+      when: ufw_enabled | bool
+    ## Docker role
+    - role: docker
+      become: true
+      tags:
+        - docker
+        - development
+      when: docker_enabled | bool
+    ## tcpdump role
+    - role: tcpdump
+      become: true
+      tags:
+        - tcpdump
+        - network
+      when: tcpdump_enabled | bool

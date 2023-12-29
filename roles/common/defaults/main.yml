@@ -1,0 +1,10 @@
+---
+
+common_enabled: 'no'
+common:
+  packages:
+    - nmap
+    - rsync
+    - tmux
+    - whois
+    - neofetch
