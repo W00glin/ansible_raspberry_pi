@@ -8,9 +8,9 @@ developement_enabled: true
 
 docker_enabled:               false
 ufw_enabled:                  false
-certbot:                      false
-tcpdump:                      false
-fail2ban:                     false
+certbot_enabled:              false
+tcpdump_enabled:              false
+fail2ban_enabled:             false
 
 # http://docs.ansible.com/ansible/playbooks_variables.html#variable-precedence-where-should-i-put-a-variable
 aptcachetime: 3600
