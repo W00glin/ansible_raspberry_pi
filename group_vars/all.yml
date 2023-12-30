@@ -1,5 +1,5 @@
 ---
-# These are for specific tags in the `ansible-desktop.yml`
+# These are for specific tags in the `ansible-raspberry-pi.yml`
 common_enabled:  true
 system_enabled:  true
 network_enabled: true
