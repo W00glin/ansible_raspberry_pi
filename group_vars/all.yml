@@ -3,7 +3,7 @@
 common_enabled:  true
 system_enabled:  true
 network_enabled: true
-developement_enabled : true
+developement_enabled: true
 
 
 docker_enabled:               false
