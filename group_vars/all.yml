@@ -8,7 +8,6 @@ developement_enabled : true
 
 docker_enabled:               false
 ufw_enabled:                  false
-cf-ddns-updater:              false
 certbot:                      false
 
 

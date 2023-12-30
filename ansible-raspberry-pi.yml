@@ -36,12 +36,6 @@
         - tcpdump
         - network
       when: tcpdump_enabled | bool
-    - role: cf-ddns-updater
-      become: true
-      tags:
-        - cf-ddns-updater
-        - network
-      when: cf-ddns-updater_enabled | bool
     - role: certbot
       become: true
       tags:
