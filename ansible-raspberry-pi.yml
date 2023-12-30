@@ -42,3 +42,9 @@
         - certbot
         - system
       when: certbot_enabled | bool
+    - role: fail2ban
+      become: true
+      tags:
+        - fail2ban
+        - system
+      when: fail2ban_enabled | bool
