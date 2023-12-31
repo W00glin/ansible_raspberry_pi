@@ -1,6 +1,6 @@
 ---
 
-- name: Install tcpdump 
+- name: Install iperf3 
   apt:
-    name: tcpdump
+    name: iperf3
     state: present

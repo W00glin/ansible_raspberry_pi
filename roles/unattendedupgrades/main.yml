@@ -1,0 +1,6 @@
+---
+
+- name: Install unattendedupgrades 
+  apt:
+    name: unattendedupgrades
+    state: present
