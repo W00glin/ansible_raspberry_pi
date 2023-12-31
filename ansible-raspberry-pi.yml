@@ -9,11 +9,6 @@
 #      tags:
 #        - UFW
   roles:
-    - role: static_ip
-      become: true
-      tags:
-        - network
-      when: static_ip | bool
     ## Common roles
     - role: common
       become: true
