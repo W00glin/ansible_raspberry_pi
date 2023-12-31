@@ -53,3 +53,9 @@
         - fail2ban
         - system
       when: fail2ban_enabled | bool
+    - role: unattendedupgrades
+      become: true
+      tags:
+        - unattendedupgrades
+        - system
+      when: unattendedupgrades_enabled | bool
