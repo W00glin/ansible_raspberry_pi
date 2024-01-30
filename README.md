@@ -1,4 +1,4 @@
-# ansible_raspberry_pi
+# ansible_raspberry_pi 🥧
 Ansible playbook for setting up a new raspberry pi. I use this for when I want to deploy a new raspberry pi, or replace one after it has been re-imaged. This is heavily inspired/taken directly from my other ansible playbooks. You can view them here:
 
  - [Pop!_OS playbook](https://github.com/W00glin/ansible_pop_os-desktop-)
